@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(window).on({
         scroll: () => {
-            if (window.scrollY > 230) {
+            if (window.scrollY > 100) {
                 $('.back').fadeOut();
                 $('.learn-more-about-me').fadeOut();
                 $('.its-me').fadeOut();
@@ -19,7 +19,7 @@ $(document).ready(function () {
 
     $(window).on({
         scroll: () => {
-            if (window.scrollY > 430) {
+            if (window.scrollY > 230) {
                 $('.milestones-achieved').fadeIn();
             } else {
                 $('.milestones-achieved').fadeOut();
@@ -29,7 +29,7 @@ $(document).ready(function () {
 
     $(window).on({
         scroll: () => {
-            if (window.scrollY > 430) {
+            if (window.scrollY > 230) {
                 $('.footer-menu').fadeIn();
             } else {
                 $('.footer-menu').fadeOut();
@@ -121,7 +121,7 @@ $(document).ready(function () {
 
      $(window).on({
         scroll: () => {
-            if (window.scrollY > 720) {
+            if (window.scrollY > 320) {
                 $('.about-teext').fadeOut();                
             } else {              
                 $('.about-teext').fadeIn();
