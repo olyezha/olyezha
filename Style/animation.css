@@ -1,0 +1,41 @@
+.left-animate{
+    animation: left-animate 700ms ease-out;
+}
+
+@keyframes left-animate {
+    0%{
+        margin-left: -100%;
+    }
+
+    100%{
+        margin-left: 0;
+    }
+}
+
+.right-animate{
+    animation: right-animate 700ms ease-out;
+}
+
+@keyframes right-animate{
+    0%{
+        margin-left: 300%;
+    }
+
+    100%{
+        margin-right: 0;
+    }
+}
+
+.tit{
+    animation: ri 700ms ease-in;
+}
+
+@keyframes ri{
+    0%{
+        margin-top: -100%;
+    }
+
+    100%{
+        margin-top: 0;
+    }
+}
