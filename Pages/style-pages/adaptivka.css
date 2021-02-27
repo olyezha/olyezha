@@ -19,7 +19,7 @@
     }
 
     .footer{
-        top: 2010px;
+       display: none;
     }
 
     .arrow-up{
@@ -80,8 +80,9 @@
         height: 1100px;
     }
 
+    
     .footer{
-        display: none;
+       display: none;
     }
 
     .arrow-up{
@@ -119,7 +120,8 @@
         margin-left: 0;
     }
 
+    
     .footer{
-        top: 1200px;
+       display: none;
     }
 }
